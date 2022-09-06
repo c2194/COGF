@@ -277,6 +277,7 @@ class QuoteProtocol(protocol.Protocol):
 
 
 
+
                 print("------"+str(client_unk) + " ---"+str(unk) )
             if abc["COM"]=="REM": # 一般性返回，如命令执行结果
                 restr = "{\"ACT\":\"reingi\",\"RJN\":"+data+"}"
